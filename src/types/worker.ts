@@ -1,5 +1,6 @@
 // Cloudflare Workers environment bindings
-export interface Env {
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
+export interface Env extends Record<string, unknown> {
   // Add your Cloudflare environment bindings here
   // Example:
   // DB: D1Database;
